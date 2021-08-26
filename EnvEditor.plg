@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EnvEditor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x1401 /fo"Debug/EnvEditor.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\EnvEditor.rc"" 
+Creating temporary file "C:\DOCUME~1\MOHAMED\LOCALS~1\Temp\RSP75.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/EnvEditor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\AddPoints.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\Ask.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\EnvEditor.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\EnvEditorDoc.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\EnvEditorView.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\Equation.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\EquDlg.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\Item.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\MainFrm.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\RdcMax.cpp"
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\RdcPointSelect.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MOHAMED\LOCALS~1\Temp\RSP75.tmp" 
+Creating temporary file "C:\DOCUME~1\MOHAMED\LOCALS~1\Temp\RSP76.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/EnvEditor.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\MOHAMED\Bureau\EnvEditor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MOHAMED\LOCALS~1\Temp\RSP76.tmp" 
+Creating temporary file "C:\DOCUME~1\MOHAMED\LOCALS~1\Temp\RSP77.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/EnvEditor.pdb" /debug /machine:I386 /out:"Debug/EnvEditor.exe" /pdbtype:sept 
+".\Debug\AddPoints.obj"
+".\Debug\Ask.obj"
+".\Debug\EnvEditor.obj"
+".\Debug\EnvEditorDoc.obj"
+".\Debug\EnvEditorView.obj"
+".\Debug\Equation.obj"
+".\Debug\EquDlg.obj"
+".\Debug\Item.obj"
+".\Debug\MainFrm.obj"
+".\Debug\RdcMax.obj"
+".\Debug\RdcPointSelect.obj"
+".\Debug\StdAfx.obj"
+".\Debug\EnvEditor.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MOHAMED\LOCALS~1\Temp\RSP77.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddPoints.cpp
+Ask.cpp
+EnvEditor.cpp
+Equation.cpp
+EquDlg.cpp
+MainFrm.cpp
+RdcMax.cpp
+RdcPointSelect.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+EnvEditorDoc.cpp
+EnvEditorView.cpp
+Item.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+EnvEditor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
